@@ -52,6 +52,7 @@ public class MySpellChecker {
     }
 
     // Getting Suggestions for Misspelled Words
+    // mispells limited to 2-4 characters
     public List<String> getSuggestions(String misspelledWord) {
 
         List<Word> words = spellChecker.getSuggestions(misspelledWord, 0);
