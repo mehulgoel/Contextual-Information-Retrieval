@@ -1,4 +1,4 @@
-package com.naivedya.ir_system;
+package com.mehul.ir_system;
 
 import java.util.ArrayList;
 import java.util.List;
