@@ -1,4 +1,4 @@
-package com.naivedya.ir_system;
+package com.mehul.ir_system;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,7 +35,7 @@ public class MySpellChecker {
         return misspelledWords;
     }
 
-    // Method to do Correction on Misspelled Words for the given Line
+    // Method to do Correction on Misspelled Words for the given lone
     public String doCorrection(String line) {
 
         List<String> misSpelledWords = detectMisspelledWords(line);
